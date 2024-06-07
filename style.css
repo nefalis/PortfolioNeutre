@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
-
 }
-
 
 :root {
 
@@ -34,7 +32,6 @@ img.cover-profile {
     left: 50%;
     margin-left: -50px;
     margin-top: 50px;
-
 }
 
 h1 {
@@ -64,7 +61,6 @@ div.cover-contact p {
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 div.cover-contactp:first-child {
@@ -185,9 +181,6 @@ div.vertical-bar {
     font-weight: bold;
 }
 
-
-
-
 /* partie contact en bas*/
 
 .frame {
@@ -195,7 +188,6 @@ div.vertical-bar {
     padding: 20px 30px;
     background-color: white;
     box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .div.frame p {
@@ -211,7 +203,6 @@ div.vertical-bar {
 
 .frame-contact {
     text-align: center;
-
 }
 
 .frame-contact a {
@@ -241,7 +232,6 @@ div.vertical-bar {
     color: black;
 }
 
-
 h1.portfolio {
     font-size: 46px;
     color: black;
@@ -261,8 +251,6 @@ h2.portfolio {
     color: var(--color1);
     margin-left: 20px;
 }
-
-
 
 .link-portfolio {
     display: block;
@@ -310,7 +298,6 @@ h2.portfolio {
         margin-bottom: 20px;
     }
 
-
     .frame {
         margin: 0px 0px;
         padding: 0px 0px;
@@ -325,7 +312,6 @@ h2.portfolio {
     .frame .frame-title {
         font-size: 25px;
     }
-
 
     .portfolio-header-title {
         font-size: 20px;
