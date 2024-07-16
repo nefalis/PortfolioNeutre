@@ -3,7 +3,6 @@
 }
 
 :root {
-
     --color1: #ae99f1;
     --color2: #f4f4f4;
 }
@@ -23,7 +22,8 @@ iframe {
 div.cover {
     background: url(asset/cover_overlay.png) no-repeat center/100% 100%, url(asset/cover.jpg) no-repeat center/cover;
     height: 360px;
-    position: relative
+    position: relative;
+    background-color: rgb(129, 129, 129);
 }
 
 img.cover-profile {
@@ -44,6 +44,8 @@ h1 {
 
 div.cover p {
     color: lightgray;
+    background-color: black;
+    padding: 5px;
     text-align: center;
     margin-top: 5px;
     font-size: 14px;
@@ -63,7 +65,7 @@ div.cover-contact p {
     margin-bottom: 0;
 }
 
-div.cover-contactp:first-child {
+div.cover-contact p:first-child {
     margin-bottom: 14px;
 }
 
@@ -74,7 +76,7 @@ div.cover-contact a {
 
 a.contact-button {
     color: var(--color1);
-    border: 3px solide var(--color1);
+    border: 3px solid var(--color1);
     padding: 8px 20px;
     text-decoration: none;
     background-color: #0000009c;
@@ -86,7 +88,7 @@ a.contact-button {
 
 a.contact-button:hover {
     color: white;
-    border: 3px solide white;
+    border: 3px solid white;
 }
 
 .section {
@@ -139,8 +141,8 @@ div.separator {
 }
 
 a.cv-button {
-    color: var(--color1);
-    border: 3px solide var(--color1);
+    color: black;
+    border: 3px solid var(--color1);
     padding: 8px 20px;
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0.34);
@@ -152,7 +154,7 @@ a.cv-button {
 
 a.cv-button:hover {
     color: black;
-    border: 3px solide white;
+    border: 3px solid white;
 }
 
 /* partie portfolio */
@@ -162,16 +164,26 @@ div.vertical-bar {
     width: 4px;
     background-color: var(--color1);
     margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .col-portfolio {
     width: 47%;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .img-col-portfolio {
     width: 100%;
-    /* height: 337px;
-    object-fit: cover; */
     border: 2px solid gray;
 }
 
@@ -181,7 +193,7 @@ div.vertical-bar {
     font-weight: bold;
 }
 
-/* partie contact en bas*/
+/* partie contact en bas */
 
 .frame {
     margin: 30px 50px;
@@ -212,7 +224,7 @@ div.vertical-bar {
     margin-right: 20px;
 }
 
-/* project page*/
+/* project page */
 
 .portfolio-header {
     height: 90px;
@@ -260,12 +272,11 @@ h2.portfolio {
     font-weight: bold;
 }
 
-
-/* Responsive mobile*/
+/* Responsive mobile */
 
 @media only screen and (max-width: 768px) {
 
-    img.cover-profilte {
+    img.cover-profile {
         height: 90px;
         margin-top: 75px;
     }
